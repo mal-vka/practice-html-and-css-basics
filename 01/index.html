@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>devmentor.pl - HTML & CSS BASICS - #01</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header__logo">
+            <a class="header__link">
+                <h1 class="header__nameBrand">brand name</h1>
+                <img class="header__img" src="#">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__navList">
+                <li class="header__navItem">
+                    <a class="header__link" src="#products">products ▼</a>
+                    <ul class="header__navSubList">
+                        <li class="header__navSubItem">
+                            <a class="header__link">group 1</a>
+                        </li>
+                        <li class="header__navSubItem">
+                            <a class="header__link">group 2 ▶</a>
+                            <ul class="header__navListOfProducts">
+                                <li class="header__navProduct"><a class="header__link" src="#">product 1</a></li>
+                                <li class="header__navProduct"><a class="header__link" src="#">product 2</a></li>
+                                <li class="header__navProduct"><a class="header__link" src="#">product 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navSubItem">
+                            <a class="header__link">group 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__navItem">
+                    <a class="header__link" src="#aboutUs">about us</a>
+                </li>
+                <li class="header__navItem">
+                    <a class="header__link" src="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
+
 </html>
